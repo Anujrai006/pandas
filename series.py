@@ -4,6 +4,7 @@ import pandas as pd
 
 data = [100, 99, 87]
 series = pd.Series(data, index=[ "anuj", "amit", "rohan"])
+# print(series)
 series.loc["rohan"]=99
 # print(series[series > 99])
 # print(series.loc["anuj"])
