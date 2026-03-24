@@ -13,7 +13,7 @@ while True:
    break
 df=pd.read_csv("data3.csv",names=["sn","name","Class","rollno"])
 # print(df)
-class_12=df[df[Class]==12]
+class_12=df[df["Class"]==12]
 print(class_12)
 
 
