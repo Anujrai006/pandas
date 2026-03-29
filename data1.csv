@@ -1,5 +1,6 @@
-Name,Age,Height
-Anuj,16,160
-Sanjay,19,158
-Sanam,18,158
-Anusha,20,150
+Name,Age,Height,Gender
+Anuj,16,160,Male
+Sanjay,19,158,Male
+Sanam,18,158,Male
+Anusha,20,150,Female
+Sweta,21,158,Female
