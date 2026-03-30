@@ -5,7 +5,17 @@ df=pd.read_csv("data_7.csv")
 Total=df[["Phy","Chem","Math"]].sum(axis=1)
 # print(Total)
 df["Total"]=Total
-print(df)
+# print(df)
 Class=df.groupby("Class")
 top_inx=Class["Total"].idxmax()
-print(df.iloc[top_inx])
+print("TOPPERS:")
+toppers=(df.iloc[top_inx])
+print(toppers)
+topper_names=toppers["Name"]
+for name in topper_names:
+    print(f"Congratulation {name}🎉🎉")
+
+print('FAILED STUDENTS')
+failed_students=df[df["Total"]<75]
+print(failed_students)
+    
