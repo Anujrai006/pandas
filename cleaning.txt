@@ -1,0 +1,31 @@
+Data cleaning in pandas is the process of fixing or removing inaccurate, incomplete, or inconsistent data in a 
+DataFrame to prepare it for analysis or machine learning. It involves using specific pandas functions for common tasks 
+like handling missing values, managing duplicates, and standardizing data formats. 
+LinkedIn
+LinkedIn
+ +4
+Common Data Cleaning Tasks and Pandas Methods
+The main steps for cleaning data with pandas include:
+Handling Missing Values
+Identify: Use df.isnull().sum() to count missing values per column.
+Remove: Use df.dropna() to remove rows or columns containing missing values.
+Fill: Use df.fillna(value) to replace missing values with a specific value (like 0, the mean, or median).
+Impute: For time-series data, you can use method='ffill' (forward fill) or method='bfill' (backward fill) in the fillna() method.
+Removing Duplicates
+Identify: Use df.duplicated() to get a boolean Series indicating duplicate rows. df.duplicated().sum() counts total duplicates.
+Remove: Use df.drop_duplicates() to remove duplicate rows, optionally specifying a subset of columns to consider and whether to keep the 'first' or 'last' occurrence.
+Fixing Data Types
+Inspect: Check current data types using df.dtypes or df.info().
+Convert: Use df['column'].astype(new_type) to change the data type of a column (e.g., to int, float, or category).
+Convert Dates: Use pd.to_datetime(df['date_column']) to convert strings to datetime objects.
+Standardizing Text Data
+Access String Methods: Use the .str accessor to apply string methods to entire columns.
+Standardize Case: Use df['column'].str.lower() or .str.upper() for consistency.
+Remove Whitespace: Use df['column'].str.strip() to remove leading/trailing spaces.
+Replace Characters/Patterns: Use df['column'].str.replace(pattern, replacement) to fix typos or remove unwanted characters.
+Handling Outliers
+Detect: Use statistical methods (like the IQR method with quantile()) or visualizations (e.g., box plots using seaborn or matplotlib) to spot extreme values.
+Manage: Decide whether to remove outliers using boolean indexing or cap their values using the clip() method, depending on the context.
+Renaming Columns
+Use df.rename(columns={'old_name': 'new_name'}, inplace=True) for specific renames.
+Apply string methods to all columns at once to standardize names (e.g., removing special characters and converting to lowercase)
