@@ -1,8 +1,11 @@
 import pandas as pd
 info={
-    "name":["anuj","anup"],
-    "class":[11,12]
+    "name":["anuj","anupa","anup"],
+    "class":[11,11,12],
+    "marks":[22,23,22]
 }
 df=pd.DataFrame(info)
-df.loc[2]=["anupa",12]
-print(df)
+df.loc[3]=["anuja",12,22]
+grouped=df.groupby("class")["marks"].sum()
+print(grouped)
+
