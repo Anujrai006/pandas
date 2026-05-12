@@ -1,0 +1,26 @@
+# Read the CSV
+# Use head(), info(), describe()
+# Find shape of data# 
+
+
+Find all NaN values
+# Fill NaN marks with mean of that column
+# Fill NaN Attendance with 0
+
+
+# Add Total column (Math + Science + English)
+# Add Average column (Total / 3)
+# Add Grade column:
+#   Average >= 80 → 'A'
+#   Average >= 60 → 'B'
+#   Average >= 40 → 'C'
+#   Below 40      → 'Fail'
+
+
+# Who scored highest average?
+# Who scored lowest average?
+# How many students got Grade A?
+# Print only students who scored above 75 average
+
+
+# Save final cleaned data as result.csv
