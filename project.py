@@ -16,8 +16,17 @@ for x in range(len(df)):
     df.loc[x,"Grade"]="fail"
 hmax=df["Average"].idxmax()
 Math_max=df["Math"].idxmax()
-print(df)
+hmin=df["Average"].idxmin()
+Math_min=df["Math"].idxmin()
+
 print("Overal topper:\b")
 print(df.loc[hmax,"Name"])
 print("Math Topper:\b")
 print(df.loc[Math_max,"Name"])
+print("Overal looser:\b")
+print(df.loc[hmin,"Name"])
+print("Math looser:\b")
+print(df.loc[Math_min,"Name"])
+# print(df["Grade"].value_counts())
+print("Students who got A:")
+print((df["Grade"]=="A").sum())
