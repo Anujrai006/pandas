@@ -10,5 +10,6 @@ df2=pd.DataFrame(
         "Age":[17,18,15]
     },index=[2,3,4]
 )
-df=df1.join(df2)
+# df=df1.join(df2)
+df=pd.concat([df1,df2],axis=1)
 print(df)
