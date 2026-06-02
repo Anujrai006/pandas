@@ -1,0 +1,74 @@
+import pandas as pd
+import numpy as np
+
+df = pd.read_csv('students.csv')
+
+# Do these:
+# 1. Print first 5 rows
+# 2. Check shape
+# 3. Check data types
+# 4. Find all missing values
+# 5. Get basic statistics using describe()
+
+
+# 1. Fill missing subject marks with the MEAN of that column
+# 2. Fill missing Attendance with MEDIAN
+# 3. Verify no NaN values remain
+# 4. Reset index if needed
+
+# 1. Total = sum of all 5 subjects
+# 2. Average = Total / 5
+# 3. Percentage = (Total / 500) * 100
+# 4. Grade using this rule:
+#       Percentage >= 90  →  'A+'
+#       Percentage >= 80  →  'A'
+#       Percentage >= 70  →  'B'
+#       Percentage >= 60  →  'C'
+#       Percentage >= 40  →  'D'
+#       Below 40          →  'Fail'
+# 5. Status = 'Pass' if Attendance >= 75 else 'Detained'
+
+# Answer these questions using pandas:
+
+# Q1. Who is the topper? (highest percentage)
+# Q2. Who scored lowest?
+# Q3. How many students got each grade? (value_counts)
+# Q4. What is average percentage by Gender?
+# Q5. Which City has the best average score?
+# Q6. How many students are Detained due to attendance?
+# Q7. Which subject has the lowest average marks? (find weak subject)
+# Q8. List all students who failed (Grade = Fail)
+# Q9. Who has 100% attendance?
+# Q10. Sort students by Percentage (highest to lowest)
+
+# 1. Show only Female students with Grade A or A+
+# 2. Show students from Kathmandu who passed
+# 3. Group by City → find average percentage per city
+# 4. Group by Gender → count how many passed vs failed
+# 5. Find top 3 students from each city
+
+# 1. Save full cleaned data to  →  cleaned_students.csv
+# 2. Save only failed students  →  failed_students.csv
+# 3. Save only top 5 students   →  toppers.csv
+# 4. Save city summary          →  city_report.csv
+
+# Bonus 1:
+# Add a column called 'Rank' based on Percentage
+# (1 = highest, 15 = lowest)
+# Hint: use .rank(ascending=False)
+
+# Bonus 2:
+# Find which student improved most if you add 5 marks
+# to their lowest subject
+
+# Bonus 3:
+# Create a pivot table showing
+# average marks per subject per gender
+# Hint: use pd.pivot_table()
+
+# Bonus 4:
+# Find students where Computer marks > Math marks
+# Are girls or boys better at Computer on average?
+
+
+

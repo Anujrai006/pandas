@@ -1,0 +1,16 @@
+StudentID,Name,Gender,Age,Math,Science,English,Nepali,Computer,Attendance,City
+1,Anuj Rai,Male,17,85,90,78,88,95,92,Kathmandu
+2,Priya Sharma,Female,16,72,NaN,65,70,80,88,Pokhara
+3,Bikash Thapa,Male,17,90,88,92,85,98,100,Lalitpur
+4,Sita Karki,Female,18,45,55,NaN,60,50,70,Bhaktapur
+5,Rohan Shrestha,Male,16,NaN,76,80,75,85,85,Kathmandu
+6,Mina Gurung,Female,17,60,65,70,72,68,NaN,Pokhara
+7,Hari Bista,Male,18,95,98,99,96,100,100,Lalitpur
+8,Sunita Rai,Female,17,30,40,35,45,38,60,Kathmandu
+9,Dipak Magar,Male,16,78,82,NaN,80,88,90,Bhaktapur
+10,Kabita Tamang,Female,18,NaN,NaN,55,60,70,75,Pokhara
+11,Suresh Limbu,Male,17,88,85,90,88,92,95,Kathmandu
+12,Nisha Lama,Female,16,55,60,58,62,65,80,Lalitpur
+13,Aakash KC,Male,18,70,75,72,78,80,85,Pokhara
+14,Puja Adhikari,Female,17,92,95,88,90,96,98,Kathmandu
+15,Bibek Ghimire,Male,16,40,45,50,48,42,65,Bhaktapur
