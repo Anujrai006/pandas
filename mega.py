@@ -28,3 +28,10 @@ avg_city=df.groupby("City")["Percentage"].mean()
 # city_max=df[avg_city,"Percentage"].idxmax()
 city_max=avg_city.idxmax()
 print(f"Highest scoring city is {city_max}")
+fail_atd=(df["Attendance"]<75).value_counts()
+print(f" no of students who failed due to attendance are {fail_atd[True]}")
+# min_avg_marks="Computer"
+x = ["Computer","English","Nepali","Science","Math"]
+average_marks=df[x].mean()
+average_min=average_marks.idxmin()
+print(f"Lowest scoring sub: {average_min}")
