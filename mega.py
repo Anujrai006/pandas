@@ -35,3 +35,8 @@ x = ["Computer","English","Nepali","Science","Math"]
 average_marks=df[x].mean()
 average_min=average_marks.idxmin()
 print(f"Lowest scoring sub: {average_min}")
+failed=df[df["Grade"]=="Fail"]
+print(failed["Name"],failed["Attendance"])
+
+
+ 
