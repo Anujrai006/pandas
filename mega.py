@@ -36,7 +36,14 @@ average_marks=df[x].mean()
 average_min=average_marks.idxmin()
 print(f"Lowest scoring sub: {average_min}")
 failed=df[df["Grade"]=="Fail"]
-print(failed["Name"],failed["Attendance"])
-
-
+print(f" failes students :{failed["Name"]}")
+s=df[df["Attendance"]==100]
+print(f"100% attensance {s["Name"]}")
+sorted_per=df.sort_values(by="Percentage",ascending=False)
+print(sorted_per[["Name","Percentage"]])
+d=df.groupby(("Gender"))
+print(d["Name"])
+female=df.groupby("Gender").get_group("Female")
+result_female=female[female["Grade"].isin(["A",'A+'])]
+print(result_female["Name"])
  

@@ -1,6 +1,6 @@
 StudentID,Name,Gender,Age,Math,Science,English,Nepali,Computer,Attendance,City
 1,Anuj Rai,Male,17,85,90,78,88,95,92,Kathmandu
-2,Priya Sharma,Female,16,72,NaN,65,70,80,88,Pokhara
+2,Priya Sharma,Female,99,98,NaN,95,90,90,98,Pokhara
 3,Bikash Thapa,Male,17,9,8,9,8,8,10,Lalitpur
 4,Sita Karki,Female,18,45,55,NaN,60,50,70,Bhaktapur
 5,Rohan Shrestha,Male,16,NaN,76,80,75,85,85,Kathmandu
