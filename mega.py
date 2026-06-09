@@ -46,4 +46,12 @@ print(d["Name"])
 female=df.groupby("Gender").get_group("Female")
 result_female=female[female["Grade"].isin(["A",'A+'])]
 print(result_female["Name"])
- 
+# print(df)
+def new_func(df):
+    passed=df[df["Status"]=="Pass"]
+    print(passed)
+    ktm=passed[passed["City"]=="Kathmandu"]
+    print(ktm[["Name","Grade"]])
+
+new_func(df)
+
