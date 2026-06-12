@@ -52,6 +52,10 @@ def new_func(df):
     print(passed)
     ktm=passed[passed["City"]=="Kathmandu"]
     print(ktm[["Name","Grade"]])
+def avg_per_city(x):
+   gend_by_std=x.groupby("City")["Percentage"].mean()
+   print(gend_by_std)
+avg_per_city(df)
 
-new_func(df)
+
 
