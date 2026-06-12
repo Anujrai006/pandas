@@ -56,6 +56,8 @@ def avg_per_city(x):
    gend_by_std=x.groupby("City")["Percentage"].mean()
    print(gend_by_std)
 avg_per_city(df)
-
-
+def gender_by_grade(x):
+   student=x.groupby("Gender")
+   print(student["Grade"].value_counts())
+gender_by_grade(df)
 
