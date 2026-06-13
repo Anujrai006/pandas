@@ -60,4 +60,9 @@ def gender_by_grade(x):
    student=x.groupby("Gender")
    print(student["Grade"].value_counts())
 gender_by_grade(df)
+def top(x):
+   sorted=x.sort_values(by='Percentage',ascending=False)
+   students=sorted.groupby("City")
+   print(students[["Name","Percentage"]].head(2))
+top(df)
 
