@@ -19,3 +19,4 @@ df.rename(columns={"result":"results"},inplace=True)
 # df.drop("Age",axis=1,inplace=True)
 df["Age"].replace(15,13,inplace=True)
 print(df)
+

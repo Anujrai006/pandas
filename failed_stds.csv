@@ -1,0 +1,3 @@
+StudentID,Name,Gender,Age,Math,Science,English,Nepali,Computer,Attendance,City,Total,Percentage,Grade,Status
+3,Bikash Thapa,Male,17,9.0,8.0,9.0,8,8,10.0,Lalitpur,42,8.4,Fail,Fail
+8,Sunita Rai,Female,17,30.0,40.0,35.0,45,38,60.0,Kathmandu,188,37.6,Fail,Fail

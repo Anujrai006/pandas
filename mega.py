@@ -62,7 +62,11 @@ def gender_by_grade(x):
 gender_by_grade(df)
 def top(x):
    sorted=x.sort_values(by='Percentage',ascending=False)
+   sorted.head(3).to_csv("Toppers.csv",index=False)
    students=sorted.groupby("City")
+   
    print(students[["Name","Percentage"]].head(2))
 top(df)
+df.to_csv("Clean_data.csv",index=False)
+failed.to_csv("failed_stds.csv",index=False)
 

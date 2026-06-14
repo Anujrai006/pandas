@@ -1,0 +1,16 @@
+StudentID,Name,Gender,Age,Math,Science,English,Nepali,Computer,Attendance,City,Total,Percentage,Grade,Status
+1,Anuj Rai,Male,17,100.0,100.0,98.0,99,99,98.0,Kathmandu,496,99.2,A+,Pass
+2,Priya Sharma,Female,99,98.0,68.0,95.0,90,90,98.0,Pokhara,441,88.2,A,Pass
+3,Bikash Thapa,Male,17,9.0,8.0,9.0,8,8,10.0,Lalitpur,42,8.4,Fail,Fail
+4,Sita Karki,Female,18,45.0,55.0,69.15384615384616,60,50,70.0,Bhaktapur,279,55.800000000000004,C+,Fail
+5,Rohan Shrestha,Male,16,66.15384615384616,76.0,80.0,75,85,85.0,Kathmandu,382,76.4,B+,Pass
+6,Mina Gurung,Female,17,60.0,65.0,70.0,72,68,85.0,Pokhara,335,67.0,B,Pass
+7,Hari Bista,Male,18,95.0,98.0,99.0,96,100,100.0,Lalitpur,488,97.6,A+,Pass
+8,Sunita Rai,Female,17,30.0,40.0,35.0,45,38,60.0,Kathmandu,188,37.6,Fail,Fail
+9,Dipak Magar,Male,16,78.0,82.0,69.15384615384616,80,88,90.0,Bhaktapur,397,79.4,B+,Pass
+10,Kabita Tamang,Female,18,66.15384615384616,68.0,55.0,60,70,75.0,Pokhara,319,63.800000000000004,B,Pass
+11,Suresh Limbu,Male,17,88.0,85.0,90.0,88,92,95.0,Kathmandu,443,88.6,A,Pass
+12,Nisha Lama,Female,16,55.0,60.0,58.0,62,65,80.0,Lalitpur,300,60.0,B,Pass
+13,Aakash KC,Male,18,70.0,75.0,72.0,78,80,85.0,Pokhara,375,75.0,B+,Pass
+14,Puja Adhikari,Female,17,92.0,95.0,88.0,90,96,98.0,Kathmandu,461,92.2,A+,Pass
+15,Bibek Ghimire,Male,16,40.0,45.0,50.0,48,42,65.0,Bhaktapur,225,45.0,C,Fail

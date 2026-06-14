@@ -1,0 +1,4 @@
+StudentID,Name,Gender,Age,Math,Science,English,Nepali,Computer,Attendance,City,Total,Percentage,Grade,Status
+1,Anuj Rai,Male,17,100.0,100.0,98.0,99,99,98.0,Kathmandu,496,99.2,A+,Pass
+7,Hari Bista,Male,18,95.0,98.0,99.0,96,100,100.0,Lalitpur,488,97.6,A+,Pass
+14,Puja Adhikari,Female,17,92.0,95.0,88.0,90,96,98.0,Kathmandu,461,92.2,A+,Pass
