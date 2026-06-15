@@ -69,4 +69,7 @@ def top(x):
 top(df)
 df.to_csv("Clean_data.csv",index=False)
 failed.to_csv("failed_stds.csv",index=False)
-
+avg_city.to_csv("city report",index=False)
+sorete_by_per=df.sort_values(by="Percentage",ascending=False)
+for i in range(1,len(df)):
+   df["Rank"]=df.loc[sorete_by_per[i]]
